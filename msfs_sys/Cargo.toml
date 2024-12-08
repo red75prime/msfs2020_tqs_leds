@@ -1,0 +1,9 @@
+[package]
+name = "msfs_sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+windows-registry = "0.3"

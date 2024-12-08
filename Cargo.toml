@@ -1,0 +1,7 @@
+[package]
+name = "msfs2020_leds"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+msfs_sys = { path = "./msfs_sys" }
