@@ -1,0 +1,2 @@
+cargo:rustc-link-search=native=D:\msfs_SDK\SimConnect SDK\lib\static\
+cargo:rustc-link-lib=SimConnect.lib

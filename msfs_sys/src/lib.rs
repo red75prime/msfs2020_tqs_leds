@@ -1,0 +1,11 @@
+mod bindings;
+
+pub use bindings::*;
+
+pub const SIMCONNECT_UNUSED: u32 = u32::MAX;
+
+pub const SIMCONNECT_OBJECT_ID_USER: u32 = 0;
+
+pub const SIMCONNECT_DATA_REQUEST_FLAG_DEFAULT: u32 = 0;
+pub const SIMCONNECT_DATA_REQUEST_FLAG_CHANGED: u32 = 1;
+pub const SIMCONNECT_DATA_REQUEST_FLAG_TAGGED: u32 = 2;
